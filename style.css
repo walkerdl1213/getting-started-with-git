@@ -1,0 +1,147 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 60px;
+  margin: 84px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header This is done. Don't make changes*/
+header {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+main {
+  display: flex;
+  justify-content:space-evenly
+  width: 100%;
+  max-width:
+}
+
+#about {
+  display: flex;
+  }
+
+  .about-content {
+    display: flex;
+  }
+
+  .text-content {
+    flex: 1;
+    padding-left: 10px;
+       
+  
+  }
+
+ /* Containers- This is done. Dont touch it. */ 
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: auto;
+}
+
+h2 {
+display: flex;
+justify-content: center;
+
+}
+
+article {
+  padding: 50px;
+  align-content: center;
+}
+
+#portfolio {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.portfolio1{
+  display:flex;
+  flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.portfolio2{
+  display:flex;
+  flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.portfolio3{
+  display:flex;
+  flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+/*portfolio is complete/*
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+
+
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+ display: flex;
+ justify-self: left;
+
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+#contact {
+display: flex;
+flex-direction: column;
+}
+
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
