@@ -30,7 +30,7 @@ main {
   width: 100%;
   max-width:
 }
-
+/* about content - this is done, dont touch it */
 #about {
   display: flex;
   }
@@ -44,6 +44,12 @@ main {
     padding-left: 10px;
        
   
+  }
+/*centererd the items in petes background */
+
+  #petesBackground {
+    align-items: center;
+    text-align: center;
   }
 
  /* Containers- This is done. Dont touch it. */ 
@@ -69,7 +75,7 @@ display: flex;
 justify-content: space-evenly;
 
 }
-
+/* all portfolio images are complete, dont touch this */
 .portfolio1{
   display:flex;
   flex-direction: column;
@@ -134,12 +140,23 @@ img {
 footer {
   text-align: center;
 }
-
+/* adjusted the margins to look similar to whats in the completed image. */
 #contact {
 display: flex;
 flex-direction: column;
+margin-left: 125px;
+margin-right: 125px;
 }
 
+/*new div to center the contact links and info*/
+#contactInfo {
+  align-items: center;
+}
+
+ol {
+  align-content: center;
+  
+}
 
 /* Other page elements */
 hr {
